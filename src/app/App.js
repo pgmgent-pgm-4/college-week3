@@ -1,10 +1,21 @@
+import './App.css';
+
 import { Alert, AlertDanger, AlertSuccess, AlertWarning, Dialog, SplitPane } from './components';
 
-import './App.css';
+import RandomBeer from './components/RandomBeer';
+import RandomCoffee from './components/RandomCoffee';
+import RandomCrypto from './components/RandomCrypto';
+import RandomVehicle from './components/RandomVehicle';
+import TeamMembers from './components/TeamMembers';
 
 function App() {
   return (
     <div className="app">
+      <RandomBeer/>
+      <RandomCoffee/>
+      <RandomCrypto/>
+      <RandomVehicle/>
+      <TeamMembers/>
       <Alert />
       <AlertWarning />
       <AlertDanger />
